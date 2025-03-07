@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -522,12 +503,15 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Stickman games encompass a diverse range of titles that feature simplistic stick-figure characters in various gameplay scenarios, including
-          action, adventure, sports, and puzzle genres. These games often utilize minimalist graphics and straightforward controls, making them
-          accessible to players of all skill levels. Common characteristics include fast-paced action, physics-based gameplay mechanics, and a focus
-          on precise timing and strategy. Stickman games frequently offer a blend of humor and challenge, with players navigating their stick-figure
-          avatars through levels filled with obstacles, enemies, and environmental hazards. Despite their simple appearance, stickman games can
-          provide engaging and addictive gameplay experiences across a wide array of genres and platforms.
+          スティックマンゲームは、アクション、アドベンチャー、スポーツ、パズルジャンルなど、さまざまなゲームプレイシナリオでスティックフィギュアキャラクターが登場する多様なタイトルを含みます🎮。これらのゲームは、ミニマリストなグラフィックと直感的な操作を活用しており、すべてのスキルレベルのプレイヤーにアクセス可能です👌。
+        </p>
+
+        <p>
+          よく見られる特徴には、スピード感のあるアクション、物理ベースのゲームプレイメカニクス、そして正確なタイミングと戦略の重要性が含まれます⚡。スティックマンゲームは、プレイヤーが障害物や敵、環境の危険を避けながらスティックフィギュアのアバターを操作するレベルを進んでいく、ユーモアとチャレンジが組み合わさった内容を提供することがよくあります🤔。
+        </p>
+
+        <p>
+          シンプルな外観にもかかわらず、スティックマンゲームは幅広いジャンルやプラットフォームで魅力的で中毒性のあるゲーム体験を提供することができます🎮🎯。
         </p>
       </div>
     </div>
@@ -579,6 +563,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

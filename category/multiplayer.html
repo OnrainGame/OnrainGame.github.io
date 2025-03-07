@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -329,13 +310,23 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Multiplayer games are a diverse category of interactive experiences that facilitate simultaneous gameplay among multiple participants,
-          either locally or online, fostering social interaction, competition, and cooperation. Whether players are engaging in intense battles,
-          collaborative missions, or strategic challenges, multiplayer games offer a dynamic platform for individuals to connect, communicate, and
-          collaborate with friends and strangers alike. From fast-paced shooters and immersive role-playing adventures to sports simulations and party
-          games, the genre spans a wide range of themes and mechanics, catering to diverse tastes and preferences. With a focus on shared experiences
-          and community engagement, multiplayer games provide an interactive playground where players can forge friendships, test their skills, and
-          embark on unforgettable journeys together.
+          マルチプレイヤーゲームは、複数の参加者が同時にプレイできるインタラクティブな体験の多様なカテゴリーで、ローカルまたはオンラインでのゲームプレイを可能にし、社交的な交流、競争、協力を促進します🤝🎮。プレイヤーが激しい戦闘に参加したり、共同ミッションをこなしたり、戦略的な挑戦に取り組んだりすることで、マルチプレイヤーゲームは友達や見知らぬ人と繋がり、コミュニケーションをとり、協力するためのダイナミックなプラットフォームを提供します🌍💬。
+        </p>
+
+        <p>
+          速いペースのシューティングゲームや没入感のあるロールプレイングアドベンチャーから、スポーツシミュレーションやパーティーゲームに至るまで、マルチプレイヤーゲームはさまざまなテーマとメカニクスにわたる広範なジャンルを網羅しており、多様な趣向やプレイスタイルに対応しています⚽🎲。これにより、プレイヤーは自分の好みに合ったゲームを楽しむことができ、各々の特技を発揮することができます💡🏆。
+        </p>
+
+        <p>
+          共同体験とコミュニティの関与に重点を置いているため、マルチプレイヤーゲームは、プレイヤーが友情を築き、スキルを試し、一緒に忘れられない冒険に出かけることができるインタラクティブな遊び場を提供します🎉💪。これらのゲームは、プレイヤーが協力し、競争しながら楽しむことができる新たな方法を提供し、エンターテイメントとソーシャルなつながりを融合させます💖👾。
+        </p>
+
+        <p>
+          オンラインやローカルでのマルチプレイヤー体験は、プレイヤー同士が一緒にリアルタイムでゲームを楽しむことで、コミュニケーションや連携が必要不可欠な要素となり、ゲームプレイをさらに深く魅力的なものにします🌟🎧。ゲーム内での協力と競争は、仲間との協力を深め、個々のプレイヤーが成長できる素晴らしい機会を提供します。
+        </p>
+
+        <p>
+          このように、マルチプレイヤーゲームは、単なるエンターテイメントを超えて、人々をつなげ、互いに学び合い、共に新しい経験を分かち合う場を提供する重要なツールとなっているのです🌐👐。これらのゲームは、プレイヤーの結束を強め、オンライン世界での感動的な瞬間を共有するための架け橋となります🌈🌟。
         </p>
       </div>
     </div>
@@ -387,6 +378,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

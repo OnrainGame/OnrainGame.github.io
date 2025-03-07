@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -790,13 +771,16 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Two-player games provide an engaging way for friends or family members to interact and compete or cooperate, whether locally or online.
-          These games span a variety of genres, from the chaotic kitchen coordination of Overcooked! 2 and the thrilling, high-speed races of Mario
-          Kart 8 Deluxe, to the strategic build-and-survive gameplay of Minecraft and the competitive, soccer-meets-cars action in Rocket League.
-          Players can enjoy solving puzzles together in Fireboy and Watergirl, shooting hoops in 8 Ball Pool, or testing their strategic thinking in
-          online chess matches on Chess.com. These games offer diverse experiences that cater to different interests and ensure fun, collaborative, or
-          competitive play.
+          2人用ゲームは、友達や家族と一緒に楽しく競い合ったり協力したりできる素晴らしい方法です。これらのゲームは、ローカルでもオンラインでも楽しむことができます。🎮
         </p>
+        <p>
+          例えば、「オーバークック！2」のようなカオスなキッチン協力ゲームや、「マリオカート8
+          デラックス」のスリリングで高速なレース、そして「マインクラフト」のような戦略的なサバイバルプレイなど、さまざまなジャンルがあります。🚗💨
+        </p>
+        <p>
+          さらに、「ファイアボーイとウォーターガール」で一緒にパズルを解いたり、「8ボールプール」でバスケットボールのシュートを試したり、オンラインチェスで戦略を駆使して対戦したりもできます。♟️🔥
+        </p>
+        <p>これらのゲームは、異なる興味に合わせた多様な体験を提供し、楽しさや協力、競争の要素を満たしています。🎉</p>
       </div>
     </div>
 
@@ -847,6 +831,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

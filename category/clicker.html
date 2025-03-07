@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -633,11 +614,19 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Clicker games, also known as incremental games or idle games, are a genre of video games where the primary mechanic involves repetitive
-          clicking or tapping to progress, typically accompanied by gradual automation and resource accumulation. Players start with minimal
-          interaction, repeatedly clicking to earn currency, which is then used to purchase upgrades or unlock new features that automate and
-          accelerate the process. The gameplay loop revolves around optimizing resource management and maximizing efficiency to reach increasingly
-          higher levels of progress, often with satisfying visual and auditory feedback to reward player engagement.
+          クリックゲーム（インクリメンタルゲームやアイドルゲームとしても知られています）は、主に繰り返しのクリックやタップを通じて進行するビデオゲームのジャンルです🖱️🎮。プレイヤーは最初は最小限の操作から始まり、クリックを繰り返して通貨を獲得します💰。その通貨を使ってアップグレードを購入したり、新しい機能をアンロックしたりして、プロセスを自動化し、加速させていきます⚙️。ゲームプレイのループは、リソース管理の最適化と効率の最大化を中心に展開され、プレイヤーのエンゲージメントに対する視覚的および聴覚的フィードバックが与えられます🔄🔊。
+        </p>
+        <p>
+          プレイヤーは、資源の収集と管理を進めることで、徐々に進行し、レベルアップしていきます📈。最初は手動でのクリックが必要ですが、次第に自動化されたシステムが導入され、より効率的にゲームを進められるようになります🛠️。これにより、プレイヤーは自分の進行状況に満足感を得ながら、次々と新しい機能やアップグレードをアンロックしていくことができます🔓🚀。
+        </p>
+        <p>
+          クリックゲームの魅力はそのシンプルさと中毒性にあります📱。少しずつ資源を蓄積し、より強力なアップグレードを手に入れることで、プレイヤーは次々と目標を達成していきます🏆。視覚的には、次々と開放される新しいエレメントやエフェクトが楽しませてくれ、音響効果もゲームの進行に合わせて変化するため、プレイヤーは常に新しい報酬を感じながらプレイできます🔊🎉。
+        </p>
+        <p>
+          このジャンルの特徴的な要素は、進行が徐々に加速するところです⏩。最初は少しの努力で多くのリソースを得ることができるものの、プレイヤーは次第により効率的な方法を見つけ、ゲームが進むにつれてより大きな成果を上げることが求められます💡。自動化システムを活用して、手動操作を最小限に抑えつつ、安定した進行を実現するのが鍵となります🔧🔄。
+        </p>
+        <p>
+          クリックゲームはその単純な操作感と、達成感を得られるループがプレイヤーを魅了します🎯。プレイヤーは、ゲームを進める中で常に新しい挑戦と報酬を楽しみながら、時間が経つのも忘れてしまうことが多いでしょう⏳。そのため、リラックスしながらも深い集中を必要とするゲーム体験を提供します🌟。
         </p>
       </div>
     </div>
@@ -689,6 +678,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

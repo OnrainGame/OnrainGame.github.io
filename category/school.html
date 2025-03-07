@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -385,13 +366,11 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          School games encompass a genre of educational simulations and activities designed to engage students in learning through interactive and
-          entertaining gameplay. These games cover a wide range of subjects and concepts, from math and science to history and language arts,
-          presenting educational content in a fun and engaging format. With colorful graphics, engaging narratives, and interactive challenges, school
-          games aim to make learning enjoyable and accessible, encouraging students to explore, experiment, and problem-solve while reinforcing key
-          academic skills and concepts. Whether navigating virtual classrooms, conducting science experiments, or solving math puzzles, school games
-          provide a dynamic platform for students to supplement their learning and deepen their understanding of various topics in a playful and
-          immersive way.
+          学校ゲームは、学生がインタラクティブで楽しいゲームプレイを通じて学びを促進することを目的とした教育的シミュレーションとアクティビティのジャンルです📚🎮。これらのゲームは、数学や科学から歴史や言語アートに至るまで、さまざまな科目と概念を取り扱い、教育的な内容を楽しく魅力的な形式で提供します✨。
+        </p>
+
+        <p>
+          鮮やかなグラフィック、魅力的なストーリー、インタラクティブなチャレンジを通じて、学校ゲームは学びを楽しくアクセスしやすくし、学生が探求し、実験し、問題を解決することを奨励します🎨🔍。仮想の教室をナビゲートしたり、科学実験を行ったり、数学のパズルを解いたりしながら、学校ゲームは学生が学びを補完し、さまざまなトピックについて遊び心を持ちながら理解を深めるためのダイナミックなプラットフォームを提供します🎓💡。
         </p>
       </div>
     </div>
@@ -443,6 +422,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

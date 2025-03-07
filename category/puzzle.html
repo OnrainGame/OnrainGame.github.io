@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -277,13 +258,11 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Puzzle games present players with a variety of challenges and brainteasers to solve, often requiring logic, strategy, and critical thinking
-          to progress. From classic tile-matching puzzles to innovative physics-based challenges, these games offer a wide range of mental exercises
-          designed to entertain and engage players of all ages. Whether unraveling intricate mysteries, navigating labyrinthine mazes, or manipulating
-          objects to overcome obstacles, puzzle games stimulate problem-solving skills while providing a satisfying sense of accomplishment upon
-          completing each conundrum. With their intuitive mechanics, clever design, and addictive gameplay loops, puzzle games offer a captivating
-          experience that encourages experimentation, creativity, and perseverance as players strive to unlock the solutions to their perplexing
-          puzzles.
+          パズルゲームは、プレイヤーにさまざまな挑戦や頭の体操を提供し、進行するために論理、戦略、批判的思考を必要とするゲームです🧩💭。クラシックなタイルマッチングパズルから革新的な物理ベースの挑戦まで、これらのゲームはあらゆる年齢層のプレイヤーを楽しませ、魅了するために設計された幅広い精神的なエクササイズを提供します🤓🎮。複雑な謎を解く、迷路を進む、障害物を乗り越えるために物体を操作するなど、パズルゲームは問題解決スキルを刺激し、各パズルを解決することによる満足感を提供します🌟🏆。
+        </p>
+
+        <p>
+          直感的なメカニクス、巧妙なデザイン、そして中毒性のあるゲームループを持つパズルゲームは、実験、創造性、そして忍耐力を促進し、プレイヤーが自分のパズルを解く方法を発見しようと努力する魅力的な体験を提供します🧠🔥。新しい解決策を見つける過程で、挑戦と達成感を感じながら楽しめるゲームジャンルです🎉💡。
         </p>
       </div>
     </div>
@@ -335,6 +314,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

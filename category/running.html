@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -733,12 +714,11 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Running games, a subgenre of action games, revolve around controlling a character who continuously moves forward through a dynamically
-          generated or pre-designed environment, requiring players to navigate obstacles, dodge hazards, and collect items while maintaining speed and
-          momentum. These games often feature intuitive controls, such as swiping or tapping on mobile devices, to steer the character left or right,
-          jump, slide, or perform other actions necessary to avoid obstacles and progress as far as possible. Running games commonly incorporate
-          elements of timing, reflexes, and strategy, challenging players to react quickly to changing environments while striving for high scores or
-          distance milestones.
+          ランニングゲームは、アクションゲームのサブジャンルで、キャラクターがダイナミックに生成されたまたは事前に設計された環境を進み続け、プレイヤーは障害物を避けたり、危険を回避したり、アイテムを収集しながらスピードと勢いを保つことが求められます🏃‍♂️💨。これらのゲームは、通常、モバイルデバイスでキャラクターを左右に動かしたり、ジャンプしたり、スライドしたり、障害物を避けたりするために必要なアクションを直感的に操作できるようなコントロールを特徴としています📱👆。
+        </p>
+
+        <p>
+          ランニングゲームは、タイミング、反射神経、戦略の要素を取り入れており、プレイヤーは変化する環境に素早く反応し、高得点や距離の目標を目指して挑戦します🏅⏱️。
         </p>
       </div>
     </div>
@@ -790,6 +770,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

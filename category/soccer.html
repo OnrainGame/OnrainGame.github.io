@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -571,13 +552,13 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Soccer games, also known as football games outside of North America, bring the excitement and strategy of the world’s most popular sport to
-          the digital arena. These games simulate the experience of playing soccer, allowing players to control teams and compete in matches that
-          replicate real-life gameplay. Titles like FIFA, Pro Evolution Soccer (PES), and Rocket League (a unique twist with cars playing soccer)
-          offer various modes, including single-player career paths, multiplayer tournaments, and online leagues. Players can manage their teams,
-          perform intricate passes, execute strategic plays, and score stunning goals. The detailed graphics, realistic physics, and authentic sound
-          effects contribute to an immersive experience, capturing the thrill of the sport. Soccer games appeal to both casual players and hardcore
-          fans, providing endless entertainment and a platform to showcase virtual soccer prowess.
+          サッカーゲーム（北アメリカ以外ではフットボールゲーム）は、世界で最も人気のあるスポーツの興奮と戦略をデジタルアリーナに持ち込んでいます⚽。これらのゲームは、プレイヤーがチームを操作し、実際の試合を再現することでサッカーの体験をシミュレートします🎮。FIFAやPro
+          Evolution Soccer（PES）、そして車でサッカーをするユニークなゲーム「Rocket
+          League」などのタイトルは、シングルプレイヤーのキャリアパス、マルチプレイヤートーナメント、オンラインリーグなど、さまざまなモードを提供しています🏆🚗。
+        </p>
+
+        <p>
+          プレイヤーは自分のチームを管理し、精巧なパスを行い、戦略的なプレイを実行し、素晴らしいゴールを決めることができます⚽💥。詳細なグラフィック、リアルな物理エンジン、そして本物のサウンドエフェクトが、スポーツの興奮を伝える没入感のある体験を提供します🎶。サッカーゲームはカジュアルプレイヤーとハードコアファンの両方に魅力的で、無限のエンターテインメントを提供し、バーチャルなサッカーの腕前を披露するためのプラットフォームを提供します👏⚽。
         </p>
       </div>
     </div>
@@ -629,6 +610,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

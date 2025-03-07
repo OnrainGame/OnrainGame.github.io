@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -393,12 +374,11 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Racing games are exhilarating experiences that put players behind the wheel of high-speed vehicles, challenging them to navigate through
-          intricate tracks and compete against opponents in adrenaline-fueled competitions. Whether tearing through realistic simulations or enjoying
-          arcade-style thrills, these games offer a variety of vehicles, from sleek sports cars to powerful motorcycles, each with unique handling
-          characteristics and customization options. With immersive graphics, dynamic environments, and realistic physics, racing games provide
-          players with a visceral sense of speed and excitement as they push their limits to claim victory, whether in solo time trials, multiplayer
-          races, or epic championship tournaments.
+          レーシングゲームは、プレイヤーを高速車両の運転席に座らせ、複雑なコースを進みながら、アドレナリン全開の競争で相手と競り合うエキサイティングな体験です🚗💨。リアルなシミュレーションを駆け抜けるか、アーケードスタイルのスリルを楽しむか、これらのゲームではスポーツカーや強力なバイクなど、さまざまな車両が登場し、それぞれがユニークな操作特性やカスタマイズオプションを提供します🏎️🏍️。
+        </p>
+
+        <p>
+          没入感のあるグラフィック、ダイナミックな環境、そしてリアルな物理エンジンを備えたレーシングゲームは、プレイヤーにスピードと興奮の臨場感を提供し、ソロタイムトライアルやマルチプレイヤーレース、エピックなチャンピオンシップトーナメントで勝利を目指して限界を超えることを促します🏁🎮。
         </p>
       </div>
     </div>
@@ -450,6 +430,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -238,13 +219,15 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Strategy games are a genre of video games where players use their intellect, planning, and decision-making skills to achieve victory. These
-          games often involve resource management, tactical maneuvers, and long-term planning. Players typically control armies, civilizations, or
-          other entities and must outwit their opponents to achieve their objectives. Strategy games can vary widely in setting and gameplay
-          mechanics, ranging from historical simulations to fantastical worlds or sci-fi universes. They can be turn-based or real-time, with each
-          offering unique challenges and opportunities for strategic thinking. Whether you’re leading troops into battle, managing a civilization’s
-          growth, or plotting political intrigue, strategy games offer a stimulating mental challenge and the satisfaction of outsmarting your
-          opponents.
+          戦略ゲームは、プレイヤーが勝利を収めるために知力、計画、意思決定スキルを使うビデオゲームのジャンルです🎮。これらのゲームは、資源管理、戦術的操作、長期的な計画が含まれることが多いです💡。プレイヤーは通常、軍隊、文明、またはその他の組織を操作し、目的を達成するために対戦相手を出し抜かなければなりません⚔️。
+        </p>
+
+        <p>
+          戦略ゲームは、その設定やゲームプレイメカニクスによって大きく異なり、歴史的なシミュレーションから幻想的な世界、あるいはサイエンスフィクションの宇宙までさまざまです🌍。ターン制やリアルタイム制があり、それぞれが戦略的思考におけるユニークな挑戦と機会を提供します⏳。
+        </p>
+
+        <p>
+          戦闘に部隊を導いたり、文明の成長を管理したり、政治的な陰謀を計画したりすることで、戦略ゲームは刺激的な頭脳の挑戦を提供し、対戦相手を出し抜く満足感を味わうことができます🎯。
         </p>
       </div>
     </div>
@@ -296,6 +279,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

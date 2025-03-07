@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -850,14 +831,19 @@
     <div class="layout-section layout-text">
       <div class="container-fluid">
         <p>
-          Car games immerse players in the thrilling world of automotive action, ranging from realistic racing simulations to high-octane arcade
-          experiences. These games often feature a wide variety of vehicles, tracks, and environments, allowing players to test their driving skills
-          in different scenarios. Popular titles like Forza Horizon, Gran Turismo, and Need for Speed offer diverse gameplay modes, including
-          single-player campaigns, multiplayer races, and open-world exploration. Players can customize their cars, fine-tune performance settings,
-          and compete in events that test speed, precision, and strategic driving. The genre captures the excitement of motorsports with detailed
-          graphics, realistic physics, and immersive sound effects, making it a favorite among car enthusiasts and gamers seeking adrenaline-fueled
-          fun. Whether racing against the clock, competing with friends, or evading the police, car games deliver non-stop excitement and a chance to
-          experience the thrill of the road.
+          車ゲームは、プレイヤーを自動車アクションのスリリングな世界に引き込みます🚗💨。リアルなレースシミュレーションから、ハイオクタンのアーケード体験まで、幅広いジャンルが揃っています🏎️。これらのゲームでは、多種多様な車両、コース、環境が登場し、プレイヤーはさまざまなシナリオで自分の運転スキルを試すことができます🏁。『フォルツァ・ホライゾン』や『グランツーリスモ』、『ニード・フォー・スピード』などの人気タイトルでは、シングルプレイヤーキャンペーン、マルチプレイヤーレース、オープンワールド探索など、さまざまなゲームモードを提供しています🌍。
+        </p>
+        <p>
+          プレイヤーは自分の車をカスタマイズし、パフォーマンス設定を微調整し、スピード、精度、戦略的な運転技術を試すイベントに挑戦することができます🏎️💥。車の外観やパーツ、エンジンの設定まで、自分好みに調整できる要素が満載で、さらにレース中の戦略的な判断が重要な役割を果たします🎯。モータースポーツの興奮を映し出すこれらのゲームは、詳細なグラフィックス、リアルな物理エンジン、臨場感あふれるサウンドエフェクトによって、ゲームプレイヤーや車愛好者にとって欠かせない存在となっています🔊🎮。
+        </p>
+        <p>
+          車ゲームは、そのエキサイティングな体験で多くのゲーマーに愛されています💥。時計と競い合ったり、友達と対戦したり、警察から逃げたりと、プレイヤーに絶え間ないスリルを提供します⏱️。これらのゲームは、運転技術の向上を目指すプレイヤーにとって理想的なチャレンジの場を提供し、どんなシーンでも緊張感と興奮が漂います🏁。ハイパフォーマンス車両でのレースはもちろん、時にはオフロードのアドベンチャーや都市を駆け抜けるスリルも味わえます🏙️💨。
+        </p>
+        <p>
+          ゲーム内では車を調整する楽しさもあり、パーツの変更やエンジンのチューニングを行うことができます🔧。これにより、個々のレースに向けた最適なセッティングを見つけ出し、より良い成績を収めることが可能になります🛠️。自分だけの完璧な車を作り上げ、その力を試す瞬間はまさに感動的です💪。これにより、車ゲームは単なるレースにとどまらず、車好きにとって夢のような体験を提供します🚗💨。
+        </p>
+        <p>
+          アクション満載の車ゲームは、競争、スリル、自由度の高さを兼ね備えており、あらゆるプレイヤーの期待に応えます🏎️💨。リアルな運転感覚や鮮明なグラフィック、迫力満点のサウンドで、レースの世界に没頭することができます🎮。友達と競い合うレースや、スピードを追求するタイムアタック、さらには大都市を自由にドライブする楽しさを味わえるタイトルは、プレイヤーにとって本物の自動車体験を提供します🌍🚗。
         </p>
       </div>
     </div>
@@ -909,6 +895,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>

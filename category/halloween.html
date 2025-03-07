@@ -124,26 +124,7 @@
           </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <div class="category-btn">
-            <a href="/category/new.html">新しい </a>
-            <a href="/category/trending.html">トレンド</a>
-          </div>
-
-          <a href="#" target="_blank" title="Join Us on Discord"
-            ><div class="social-button">
-              <img src="/assets/icons/discord.svg" alt="Follow Us on Discord" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-discord"></i>
-              </div></div
-          ></a>
-
-          <a href="#" target="_blank" title="Follow Me on Instagram"
-            ><div class="social-button">
-              <img src="/assets/icons/instagram.svg" alt="Follow Us on Instagram" />
-              <div class="social-overlay">
-                <i class="social-icon fab fa-instagram"></i>
-              </div></div
-          ></a>
+          <div class="category-btn" id="category-btn"></div>
 
           <form class="form-search w-xxl-300 w-xl-250 ms-xl-4 mb-3 mb-lg-0" action="/search.html" method="get">
             <div class="input-group input-group-inline shadow-none">
@@ -237,53 +218,50 @@
 
     <div class="layout-section layout-text">
       <div class="container-fluid">
-        <p>Sure! Here are some descriptions of Halloween games:</p>
+        <p>ハロウィンゲームの説明をご紹介します！🎃👻</p>
 
         <p>
-          Bobbing for Apples: A classic Halloween game where participants try to grab apples from a large basin or bucket filled with water using only
-          their mouths. It’s a fun and messy activity that’s perfect for Halloween parties.
+          りんごボビング（Bobbing for
+          Apples）：水が入った大きな盆やバケツから、口だけでりんごを取ろうとするクラシックなハロウィンゲームです🍏💦。これはハロウィンパーティーにぴったりな楽しくてちょっとした汚れを伴うアクティビティです！
         </p>
 
         <p>
-          Mummy Wrap: In this game, teams compete to see who can wrap a designated team member in toilet paper or crepe paper the fastest to turn them
-          into a “mummy.” The team with the best-wrapped mummy wins!
+          ミイラ巻き（Mummy
+          Wrap）：このゲームでは、チームごとに指定されたメンバーをトイレットペーパーやクレープペーパーで最速で巻いて「ミイラ」に変身させます🧻🎭。一番きれいに巻けたチームが勝利です！
         </p>
 
         <p>
-          Pumpkin Carving Contest: Set up a pumpkin carving station with pumpkins, carving tools, and stencils. Participants can unleash their
-          creativity by carving intricate designs or spooky faces into their pumpkins. Judges can then award prizes for the most impressive creations.
+          カボチャ彫刻コンテスト（Pumpkin Carving
+          Contest）：カボチャ、彫刻道具、テンプレートを準備して、参加者がカボチャに精巧なデザインや怖い顔を彫り込むクリエイティブなコンテストです🎃🔪。最も印象的な作品には審査員が賞を授けます🏆。
         </p>
 
         <p>
-          Costume Contest: Encourage guests to come dressed in their best Halloween costumes and host a costume contest. Categories can include
-          scariest costume, funniest costume, and most creative costume. Offer prizes for the winners to make it even more exciting.
+          仮装コンテスト（Costume
+          Contest）：ゲストに最高のハロウィン衣装で参加してもらい、仮装コンテストを開催します👗🕸️。カテゴリには「一番怖い衣装」、「一番面白い衣装」、「一番創造的な衣装」などがあります。優勝者には賞品を用意して、さらに盛り上げましょう！🎁
         </p>
 
         <p>
-          Scavenger Hunt: Create a Halloween-themed scavenger hunt with clues hidden around your home or neighborhood. Participants can work
-          individually or in teams to solve the clues and find hidden treats or prizes. Make the clues spooky and challenging to add to the Halloween
-          atmosphere.
+          スカベンジャーハント（Scavenger
+          Hunt）：家の中や近所に隠された手がかりを使ってハロウィンテーマのスカベンジャーハントを作りましょう🎃📜。参加者は個人またはチームで手がかりを解決し、隠されたお菓子や賞品を探します。手がかりを怖くてチャレンジングにして、ハロウィンの雰囲気を高めましょう👀。
         </p>
 
         <p>
-          Ghost Bowling: Set up a bowling game with ghost-shaped pins and a pumpkin or small ball as the bowling ball. Players take turns trying to
-          knock down as many ghost pins as they can with the ball. It’s a simple yet entertaining game that’s perfect for all ages.
+          ゴーストボウリング（Ghost
+          Bowling）：ゴースト型のピンとカボチャや小さなボールを使ってボウリングをするゲームです🎳👻。プレイヤーは順番にボールでゴーストピンを倒すことを目指します。シンプルながらも楽しく、年齢を問わず楽しめるゲームです！
         </p>
 
         <p>
-          Haunted House Escape Room: Transform a room in your home into a makeshift haunted house and challenge guests to escape within a certain time
-          limit. Set up spooky decorations, hidden clues, and puzzles to add to the atmosphere. This game is sure to get everyone’s adrenaline
-          pumping!
+          お化け屋敷脱出ゲーム（Haunted House Escape
+          Room）：家の中の部屋を仮装のお化け屋敷に変身させ、一定の時間内に脱出する挑戦をゲストに与えます🏚️🕵️‍♀️。怖い装飾や隠された手がかり、パズルを設置して、ドキドキ感をアップさせましょう！このゲームは、みんなのアドレナリンを駆り立てること間違いなしです⚡！
         </p>
 
         <p>
-          Monster Mash Dance Party: Clear out a space for dancing and create a Halloween-themed playlist with spooky tunes like “Thriller” by Michael
-          Jackson and “Monster Mash” by Bobby “Boris” Pickett. Encourage guests to show off their best dance moves in their Halloween costumes.
+          モンスター・マッシュ・ダンスパーティー（Monster Mash Dance
+          Party）：ダンススペースを確保し、「スリラー」や「モンスター・マッシュ」などのハロウィンテーマのプレイリストを作りましょう💃🕺。ゲストには、ハロウィン衣装で最高のダンスムーブを披露してもらいましょう！
         </p>
 
         <p>
-          These are just a few ideas to get you started, but the possibilities for Halloween games are endless! Feel free to get creative and
-          customize these games to suit your party’s theme and the preferences of your guests.
+          これらはほんの一部のアイデアですが、ハロウィンゲームには無限の可能性があります🎉🎈！ぜひクリエイティブに楽しんで、これらのゲームをパーティーのテーマやゲストの好みに合わせてカスタマイズしてみてください🎨🎁！
         </p>
       </div>
     </div>
@@ -335,6 +313,7 @@
         <div class="modal-content"></div>
       </div>
     </div>
+    <script src="/assets/js/custom_v1.js"></script>
     <script src="/assets/js/analytics_ucbg_v1.js"></script>
     <script src="/assets/js/adsense_ucbg_v1.js"></script>
     <script src="/assets/js/fullscreen.js"></script>
